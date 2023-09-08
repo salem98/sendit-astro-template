@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
+import { Helmet } from "react-helmet";
 
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
@@ -22,6 +23,9 @@ export default function Navigation({ pageUrl }) {
 
   return (
     <>
+      <Helmet>
+        <script async src="https://tally.so/widgets/embed.js"></script>
+      </Helmet>
       <header>
         <nav
           className={`navbar navbar-expand-lg position-fixed w-100 zindex-dropdown${

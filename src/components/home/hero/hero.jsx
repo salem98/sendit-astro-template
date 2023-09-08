@@ -19,7 +19,7 @@ export default function HomeHero(block) {
               <div className="">
                 {block.button && (
                   <a
-                    href={block.button.link}
+                    href="https://tally.so#tally-open=3lqdjV&tally-width=500&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave&tally-auto-close=600000"
                     className="btn btn-primary btn-lg"
                   >
                     {" "}
